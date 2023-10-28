@@ -24,7 +24,9 @@ type User struct {
 ##### 1. Signup
 
 > Endpoint: /signup
+> <br>
 > Method: POST
+> <br>
 > Request Payload:
 
 ```
@@ -62,7 +64,9 @@ type User struct {
 ##### 2. Login
 
 > Endpoint: /login
+> <br>
 > Method: POST
+> <br>
 > Request Payload:
 
 ```
@@ -97,8 +101,11 @@ type User struct {
 ##### 3. Refresh Token
 
 > Endpoint: /refresh/token
+> <br>
 > Method: POST
+> <br>
 > Request Payload: Add refresh_token in header
+> <br>
 
 > Response:
 
@@ -125,8 +132,9 @@ type User struct {
 ##### 4. Get Users
 
 > Endpoint: /users/:user_id(self user id)
+> <br>
 > Method: POST
-> Request Payload: Add refresh_token in header
+> <br>
 
 > Response:
 
@@ -169,8 +177,9 @@ type User struct {
 ##### 4. Get User
 
 > Endpoint: /user/:user_id
+> <br>
 > Method: POST
-> Request Payload: Add refresh_token in header
+> <br>
 
 > Response:
 
