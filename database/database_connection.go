@@ -10,7 +10,7 @@ import (
 )
 
 const (
-	dsnWithoutDB = "root:fosla-sql@tcp(127.0.0.1:3306)/golang_jwt_sql?charset=utf8mb4&parseTime=True&loc=Local"
+	dsnWithoutDB = "username:password@tcp(127.0.0.1:3306)/golang_jwt_sql?charset=utf8mb4&parseTime=True&loc=Local"
 )
 
 var db *gorm.DB
